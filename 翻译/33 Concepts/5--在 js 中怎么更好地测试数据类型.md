@@ -45,6 +45,14 @@ array
 
 
 ```
+// Returns if a value is an array
+function isArray (value) {
+    return value && typeof value === 'object' && value.constructor === Array;
+}
+
+// ES5 actually has a method for this (ie9+)
+Array.isArray(value);
+
 
 ```
 
@@ -146,3 +154,10 @@ function isSymbol (value) {
 ```
 
 以上就是目前为止所有的类型了,如果你觉得有错误的地方或者遗漏的地方你可以留下你的评论,想要查看更多关于 js的数据类型的可以查看[developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures).
+
+
+
+
+
+原文地址https://webbjocke.com/javascript-check-data-types/
+
