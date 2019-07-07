@@ -135,3 +135,5 @@ const 和 Object.freeze() 是不一样的,const 是预防重新赋值,Object.fre
 PS 这个文章首发于我的[博客](https://bolajiayodeji.com/object.freeze-vs-const/)
 
 感谢你的阅读,撒花!
+
+原文地址: https://medium.com/@bolajiayodeji/the-differences-between-object-freeze-vs-const-in-javascript-4eacea534d7c
